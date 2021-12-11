@@ -1,0 +1,49 @@
+body {
+    background-color: #d8cbbb;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+/* General Styling for the Bar */
+.navigation-bar {
+    width: auto;  /* i'm assuming full width */
+    height: auto; /* change it to desired width */
+    background-color: #25282c; 
+    font-size: 30px;
+    overflow: hidden;
+    
+}
+/* Nav Bar Logo Formatting */
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+   
+}
+/* Navigation Bar Text Setup */
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    height: 100px;       
+    line-height: 80px;    
+    text-decoration: none;
+    padding: 0px 30px;
+    color: #d8cbbb;
+    text-align: right;
+    
+}
+/* Change the color of links on hover */
+.navigation-bar a:hover {
+    background-color: #978b79;
+    color: black;
+  }
+  
+  /* Change the color of links when active */
+.navigation-bar a:active {
+    background-color: #978b79;
+    color: #d8cbbb;
+  }
