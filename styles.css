@@ -47,3 +47,41 @@ body {
     background-color: #978b79;
     color: #d8cbbb;
   }
+
+  * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+  }
+.footer-container {
+    background-color: #25282c;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.footer {
+    width: 80%;
+    height: 15vh;
+    background-color: #25282c;
+    color: #d8cbbb;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+.footer-heading a {
+    color: #d8cbbb;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+    color:#978b79;
+    transition: 0.3s ease-out;
+}
