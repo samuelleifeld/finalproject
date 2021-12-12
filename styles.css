@@ -180,6 +180,7 @@ body {
     padding-left: 10px;
     color: #25282c;
 }
+
 #sidebar-col {
     background-color: #585a5d;;
     min-height: 550px;
@@ -197,6 +198,17 @@ body {
 }
 #resume h2{
     padding-top: 30px;
+}
+
+/* Lightbox for Resume */
+#main-col a {
+    color: #25282c;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+#main-col a:hover {
+    color:#978b79;
+    transition: 0.3s ease-out;
 }
 /* Formatting for blofg page*/
 #blog {
@@ -275,3 +287,19 @@ body {
      column-count:         1;
     }
  }
+ h2 {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
