@@ -70,7 +70,18 @@ body {
     width: 37.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
   }
+    /* Transitions to color when hovered */
+    .hero img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
   /* Homepage bio text */
   .bio {
     width: 45rem;
@@ -235,6 +246,7 @@ body {
     height: auto !important;
     margin-bottom:5px; /* to match column gap */
  }
+
  @media (max-width: 1200px) {
     #gallery {
      -moz-column-count:    4;
