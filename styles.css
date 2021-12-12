@@ -71,7 +71,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+  /* Homepage bio text */
   .bio {
     width: 45rem;
     padding: 0.625rem;
@@ -88,7 +88,7 @@ body {
     padding: 0.3rem 0;
   }
   
-
+/* Footer formatting */
 .footer-container {
     background-color: #25282c;
     padding-bottom: 10px;
@@ -153,13 +153,14 @@ body {
     background-color: #978b79;
     transition: 0.3s ease-out;
 }
-
+/* Style for the Resume Section*/
 #resume {
     background-color: #978b79;
     min-height: 550px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/* Fromatting for the two colums in resume page*/
 #main-col {
     background-color: #d8cbbb;
     height: 550px;
@@ -186,7 +187,7 @@ body {
 #resume h2{
     padding-top: 30px;
 }
-
+/* Formatting for blofg page*/
 #blog {
     background-color: #978b79;
     min-height: 550px;
@@ -219,3 +220,46 @@ body {
 #blog h2{
     padding-top: 30px;
 }
+/* Formatting for the Resume Gallert */
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+ }
+ @media (max-width: 1200px) {
+    #gallery {
+     -moz-column-count:    4;
+     -webkit-column-count: 4;
+     column-count:         4;
+    }
+ }
+ @media (max-width: 1000px) {
+    #gallery {
+     -moz-column-count:    3;
+     -webkit-column-count: 3;
+     column-count:         3;
+    }
+ }
+ @media (max-width: 800px) {
+    #gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
+    }
+ }
+ @media (max-width: 400px) {
+    #gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
+    }
+ }
