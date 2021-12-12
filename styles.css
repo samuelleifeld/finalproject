@@ -87,6 +87,8 @@ body {
     line-height: var(--line-height);
     padding: 0.3rem 0;
   }
+  
+
 .footer-container {
     background-color: #25282c;
     padding-bottom: 10px;
@@ -150,4 +152,37 @@ body {
     cursor: pointer;
     background-color: #978b79;
     transition: 0.3s ease-out;
+}
+
+#resume {
+    background-color: #978b79;
+    min-height: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#main-col {
+    background-color: #d8cbbb;
+    height: 550px;
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    color: #25282c;
+}
+#sidebar-col {
+    background-color: #585a5d;;
+    min-height: 550px;
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    color: #d8cbbb;
+}
+#sidebar-col h2 {
+    color: d8cbbb;
+}
+#resume h1{
+    text-align: center;
+    color:  #25282c;
+}
+#resume h2{
+    padding-top: 30px;
 }
